@@ -1,0 +1,19 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Administrator
+  Date: 2021/11/21
+  Time: 0:06
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
+<html>
+<head>
+    <title>show</title>
+</head>
+<body>
+    /show.jsp,显示request作用域中的数据 <br>
+    <h3> myname数据： ${myname}</h3>
+    <h3> myage数据： ${myage}</h3>
+</body>
+</html>
